@@ -1,5 +1,5 @@
 {% set name = "vollseg" %}
-{% set version = "5.4.3" %}
+{% set version = "5.4.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/vollseg-{{ version }}.tar.gz
-  sha256: 12af77540d7fa2fb077158a403ed6f9e7f51dca1ea55c77f62e8eb99a8cb6fd2
+  sha256: 0f9d6b23c8ddd4bac57e79681fe0bf0426b53f716aa8f68be7f1911d825d8f3a
 
 build:
   noarch: python
