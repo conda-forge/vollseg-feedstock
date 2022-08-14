@@ -30,6 +30,7 @@ requirements:
     - tifffile
     - csbdeep
     - tensorflow
+    - photutils
 
 test:
   imports:
