@@ -1,5 +1,7 @@
 {% set name = "vollseg" %}
-{% set version = "5.5.7" %}
+
+{% set version = "5.6.0" %}
+
 
 package:
   name: {{ name|lower }}
@@ -30,6 +32,7 @@ requirements:
     - tifffile
     - csbdeep
     - tensorflow
+    - photutils
 
 test:
   imports:
