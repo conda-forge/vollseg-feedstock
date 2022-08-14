@@ -9,8 +9,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/vollseg-{{ version }}.tar.gz
-  sha256: e7cb2bcd61b465f30e92568c95f9b9019318d8480f384b6f42c862d4b1623640
-
+  sha256: dd0e0696a18023e45c1adf6515712bed3ea682a79547e6aab6cdcf662af5c131
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
