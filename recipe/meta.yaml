@@ -31,6 +31,7 @@ requirements:
     - csbdeep
     - tensorflow
     - photutils
+    - albumentations
 
 test:
   imports:
