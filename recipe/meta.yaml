@@ -1,6 +1,6 @@
 {% set name = "vollseg" %}
 
-{% set version = "5.6.0" %}
+{% set version = "5.6.4" %}
 
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/vollseg-{{ version }}.tar.gz
-  sha256: dd0e0696a18023e45c1adf6515712bed3ea682a79547e6aab6cdcf662af5c131
+  sha256: 5ec7de7e8d408e5497ce250902294f91ea9c35640aa7f3238379debaabe626a4
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
