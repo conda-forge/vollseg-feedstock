@@ -1,6 +1,8 @@
 {% set name = "vollseg" %}
 
-{% set version = "5.6.4" %}
+
+{% set version = "5.6.8" %}
+
 
 
 package:
@@ -9,7 +11,9 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/vollseg-{{ version }}.tar.gz
-  sha256: 5ec7de7e8d408e5497ce250902294f91ea9c35640aa7f3238379debaabe626a4
+
+  sha256: 53c4fb6b7be9581f38eafdc14fa344c897633c6cfebbbab8039a37f4c34ddbdc
+
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
@@ -32,6 +36,7 @@ requirements:
     - csbdeep
     - tensorflow
     - photutils
+    - albumentations
 
 test:
   imports:
