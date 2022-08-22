@@ -33,6 +33,7 @@ requirements:
     - tensorflow
     - photutils
     - albumentations
+    - opencv-python-headless
 
 test:
   imports:
