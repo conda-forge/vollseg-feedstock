@@ -1,7 +1,7 @@
 {% set name = "vollseg" %}
 
 
-{% set version = "5.6.8" %}
+{% set version = "5.7.5" %}
 
 
 
@@ -12,7 +12,7 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/vollseg-{{ version }}.tar.gz
 
-  sha256: 53c4fb6b7be9581f38eafdc14fa344c897633c6cfebbbab8039a37f4c34ddbdc
+  sha256: adb1679a9c65806d77f4aa2cb47f67ed0f98d2fefc35736bc27fa65614f559e6
 
 build:
   noarch: python
@@ -37,7 +37,7 @@ requirements:
     - tensorflow
     - photutils
     - albumentations
-    - opencv-python-headless
+
 
 test:
   imports:
