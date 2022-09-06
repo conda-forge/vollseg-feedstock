@@ -28,15 +28,12 @@ requirements:
     - diplib-python
     - matplotlib-base
     - napari
-    - opencv
     - pandas
     - scipy
     - stardist >=0.7.0
     - tifffile
     - csbdeep
     - tensorflow
-    - photutils
-    - albumentations
 
 
 test:
